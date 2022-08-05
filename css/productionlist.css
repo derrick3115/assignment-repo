@@ -1,0 +1,38 @@
+body{
+    background-image: url(../pics/home2.webp);
+}
+.banner{
+    background-image:url(../pics/Blue-Banner.jpg);
+}
+.banner_content{
+    padding: 80px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.banner_text{
+    color: white;
+    flex: 1;
+    line-height: 1.4;
+    font-family: 'quicksand',sans-serif;
+}
+.btn button{
+    background-color: #222422; /* Green */
+border: none;
+color: white;
+padding: 14px 50px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-left: 200px;
+}
+.btn button:hover {
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+table, th, td {
+    border:0px solid black;
+    font-size: larger;
+    text-align: center;
+  }
